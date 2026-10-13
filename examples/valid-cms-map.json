@@ -1,0 +1,1 @@
+{"patient_access_resources":["Patient","Coverage","ExplanationOfBenefit"],"bulk_export_supported":true}

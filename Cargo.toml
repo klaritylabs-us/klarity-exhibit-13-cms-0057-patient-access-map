@@ -1,0 +1,19 @@
+[package]
+name = "klarity-exhibit-13-cms-0057-patient-access-map"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "CMS-0057-F patient access map checks"
+publish = false
+
+[lib]
+name = "cms_patient_access"
+path = "src/lib.rs"
+
+[[bin]]
+name = "validate-cms-map"
+path = "src/bin/validate_cms_map.rs"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
